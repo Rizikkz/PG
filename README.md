@@ -60,4 +60,4 @@ OR body LIKE '%postgres%amazing%';
 **ILIKE** - Оператор `ILIKE` также используется для сравнения строк, но не учитывает регистр символов. Поэтому `ILIKE` сопоставляет строки без учета регистра символов. В остальном, его работа аналогична оператору `LIKE`.)
 
 Результат запроса:
-![Untitled](https://github.com/Rizikkz/k8s-django/blob/main/image/2.png)
+![Untitled](https://github.com/Rizikkz/PG/blob/main/image/2.png)
