@@ -4,9 +4,10 @@ PG-Инженер по отказоустойчивости
 ```bash
 explain analyze verbose
 SELECT body 
-  FROM posts 
- WHERE body ILIKE '%postgres%awesome%'
-    OR body ILIKE '%postgres%amazing%';```
+FROM posts 
+WHERE body ILIKE '%postgres%awesome%'
+OR body ILIKE '%postgres%amazing%';```
+
 - `EXPLAIN`: Эта команда показывает план выполнения запроса. Она объясняет, как база данных планирует выполнить запрос без фактического выполнения его.
     
 - `ANALYZE`: Эта команда показывает, какие фактические результаты были получены при выполнении запроса. Это включает в себя информацию о времени выполнения и использовании ресурсов.
