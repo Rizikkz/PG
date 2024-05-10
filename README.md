@@ -2,11 +2,13 @@ PG-Инженер по отказоустойчивости
 1. 1. Выполнил развертывание рабочего окружения(https://gist.github.com/pkonotopov/c1e048e217217dcb2e5d7bed1739b238)
 2.  Выполнил запрос 
 
+```
 explain analyze verbose
 SELECT body 
 FROM posts 
 WHERE body ILIKE '%postgres%awesome%'
 OR body ILIKE '%postgres%amazing%';
+```
 
 - `EXPLAIN`: Эта команда показывает план выполнения запроса. Она объясняет, как база данных планирует выполнить запрос без фактического выполнения его.
     
